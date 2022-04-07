@@ -1,0 +1,65 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #8052B6 ;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(218, 195, 195);
+    font-weight: 500;
+}
+
+.textoImportante {
+    color: red;
+    font-weight: 800;
+}
+
+#textoEnvio {
+    color: green;
+}
+
+h2 {
+    text-decoration: underline;
+    color: green !important;
+}
+
+#subidRojo {
+    color: red;
+}
+
+.subtituloAzul {
+    color: blue;
+}
+
+.parallax{
+    background-image: url("../img/img1.avif");
+    height:  600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.texto {
+    background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+
+
