@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+nav {
+    height: 20vh;
+    background-color: #413F73;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Posiciona fijo en la pantalla */
+.chat {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+.img_responsive {
+    width: 100%;
+
+}
+
+/* Redes sociales */
+
+.social {
+    position: absolute;
+    top: 70vh;
+    right: 10px;
+    z-index: 0;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    font-size: 35px;
+
+}
+.social ul li a:hover {
+    font-size: 45px;
+
+}
+
+.rojo {
+    color: rgb(242, 58, 58);
+}
+
+.verde {
+    color: rgb(41, 145, 41);
+}
+
+/* Secciones */
+.section_img {
+    width: 400px;
+}
+
+/* El contenedor padre es el relativo */
+.section_img {
+    position: relative;
+}
+/* El elemento hijo que se va a mover absoluto en el padre */
+.img_descripcion {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0,0.7);
+    height: 36px;
+    color: #fff;
+}
