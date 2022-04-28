@@ -8,8 +8,12 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
-    display: flex;
-    justify-content: center;
+
+}
+
+header h1 {
+    margin-left: 350px;
+    padding-top: 70px;
 }
 
 nav {
