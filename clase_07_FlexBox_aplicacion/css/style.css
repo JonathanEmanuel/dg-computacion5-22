@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size:10vw;
+    color: #fff;
+    -webkit-text-stroke: 2px black;
+    color: transparedrent; 
+}
+
+
+nav {
+    height: 10vh;
+    background-color: #413F73;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(203, 218, 145);
+}
+/* Flexbox en el menú */
+.menu {
+    background-color: rgb(50, 126, 207);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Posiciona fijo en la pantalla */
+.chat {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+
+}
+
+.img_responsive {
+    width: 100%;
+
+}
+
+/* Redes sociales */
+
+.social {
+    position: absolute;
+    top: 70vh;
+    right: 10px;
+    z-index: 0;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    font-size: 35px;
+
+}
+.social ul li a:hover {
+    font-size: 45px;
+
+}
+
+.rojo {
+    color: rgb(242, 58, 58);
+}
+
+.verde {
+    color: rgb(41, 145, 41);
+}
+
+/* Secciones */
+.section_img {
+    width: 400px;
+}
+
+/* El contenedor padre es el relativo */
+.section_img {
+    position: relative;
+}
+/* El elemento hijo que se va a mover absoluto en el padre */
+.img_descripcion {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0,0.7);
+    height: 36px;
+    color: #fff;
+}
+
+
+
+.section-fotos {
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    margin: 3vh;
+
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-principal{
+    margin-top: 30px;
+    display: flex;
+}
+
+.section-texto {
+ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-img {
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-img img {
+    width: 70%;
+}
+
+.img-logo {
+    width: 64px;
+    margin-left: 20px;
+}
+
+footer p {
+    margin-right: 100px;
+}
+
+footer {
+    background-color: #413F73;
+    color: #fff;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
