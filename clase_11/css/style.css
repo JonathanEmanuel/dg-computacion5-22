@@ -1,0 +1,52 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.flex-container {
+    display: flex;
+}
+
+col {
+    width: 100%;
+}
+
+.azul {
+    border: 1px solid  rgb(48, 48, 214);
+    height: 200px;
+    
+}
+
+.rojo {
+    border: 1px solid rgb(183, 49, 49);
+    height: 200px;
+}
+
+.verde {
+    border: 1px solid green;
+}
+
+/* Contenedor Padre relativo */
+.box-img {
+    position: relative;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-icon {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    z-index: 1;
+}
+
+.img-icon-2 {
+    position: absolute;
+    top: 100px;
+    left: 360px;
+    z-index: 0;
+}
