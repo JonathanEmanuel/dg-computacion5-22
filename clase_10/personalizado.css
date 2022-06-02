@@ -1,3 +1,7 @@
+.nav-personalizado {
+    box-shadow: 2px 10px 20px rgba(0, 0, 0,0.5);
+}
+
 .hero {
     height: 30vh;
     display: flex;
@@ -5,6 +9,32 @@
     align-items: center;
 }
 
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icon {
+    font-size: 32px;
+    color: wheat;
+}
+
+.social-icon:hover{
+    color: aliceblue;
+}
+
+.rojo {
+    color: rgb(204, 48, 48);
+}
+
+.celeste {
+    color: rgb(106, 193, 243);
+}
+
+.azul {
+    color: rgb(52, 52, 196);
+}
 .centrado {
     display: flex;
     flex-direction: column;

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computación V</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="personalizado.css">
@@ -13,8 +14,65 @@
 </head>
 
 <body>
-    <header class="hero bg-success">
-        <h1 class="text-light">Bootstrap Componentes</h1>
+    <nav class="navbar nav-personalizado fixed-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="img/icon.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Incio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactos</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    <header class="bg-success">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/icon.png" alt="logo">
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="mt-3 form-control">
+
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2 p-3">
+                <ul class="social-list">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook azul social-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter celeste social-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram-square rojo social-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="hero">
+            <h1 class="text-light">Bootstrap Componentes</h1>
+
+        </div>
 
     </header>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
